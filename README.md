@@ -146,4 +146,4 @@ For devices who do not have at least the M7 Motion Coprocessor (this includes th
 MIT. Do what you will.
 
 ### Comments and Concerns
-If have anything to say, questions or comments, please do not hesitate to contact me.
+If you have any questions or comments, please do not hesitate to contact me.
