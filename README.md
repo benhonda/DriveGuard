@@ -6,6 +6,16 @@ DriveGuard only works with devices that have at least the M7 motion co-processor
 The full device list can be found here:
 [https://en.wikipedia.org/wiki/Apple_motion_coprocessors](https://en.wikipedia.org/wiki/Apple_motion_coprocessors "Apple Motion Coprocessors")
 
+## Screenshot Examples
+
+Figure 1. 'Driving Discouraged' Default Alert
+
+Figure 2. 'Driving Prohibited' Default Alert
+
+Figure 3. Custom Alert
+
+<img src="/DriveGuard/img_discouragedalert.PNG?raw=true" alt="Discouraged Alert" width="200" height="auto"> &nbsp;<img src="/DriveGuard/img_prohibitedalert.PNG?raw=true" alt="Prohibited Alert" width="200" height="auto"> &nbsp;<img src="/DriveGuard/img_customalert.PNG?raw=true" alt="Custom Alert" width="200" height="auto">
+
 ## Features
 ```
 func userIsDriving(driving: Bool)
@@ -13,18 +23,18 @@ func userIsDriving(driving: Bool)
 ```
 
 ```
-func userIsDrivingCustomAlert(viewController: UIViewController, alertTitle: String, alertMessage: String, alertActionTitle: String?, completion: (() -> ())? = nil) 
---> displays a UIAlert with the text provided
+func userIsDrivingDiscouragedAlert(viewController: UIViewController, completion: (() -> ())? = nil)
+--> displays a UIAlert with generic text saying driving is discouraged, but not prohibited while using the app (screenshots fig. 1)
 ```
 
 ```
 func userIsDrivingProhibitedAlert(viewController: UIViewController, completion: (() -> ())? = nil)
---> displays a UIAlert with generic text saying driving is prohibited while using the app (see screenshots fig. 1)
+--> displays a UIAlert with generic text saying driving is prohibited while using the app (screenshots fig. 2)
 ```
 
 ```
-func userIsDrivingDiscouragedAlert(viewController: UIViewController, completion: (() -> ())? = nil)
---> displays a UIAlert with generic text saying driving is discouraged, but not prohibited while using the app (see screenshots fig. 2)
+func userIsDrivingCustomAlert(viewController: UIViewController, alertTitle: String, alertMessage: String, alertActionTitle: String?, completion: (() -> ())? = nil) 
+--> displays a UIAlert with the text provided (screenshots figure 3.)
 ```
 
 ## Installation
