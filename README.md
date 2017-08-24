@@ -140,7 +140,7 @@ override func viewDidAppear(_ animated: Bool) {
 When using one of the default functions that use UIAlerts, it's better to put the code inside the `viewDidAppear` function rather than the `viewDidLoad` function. Otherwise your program may throw a `Warning: Attempt to present ... whose view is not in the window hierarchy!` error... we're working on that.
 
 ## Error Handling
-For devices who do not have at least the M7 Motion Coprocessor (this includes the simulator by the way), DriveGuard will give you the error: `The activity moniter is not available. DriveGuard requires at least the M7 motion co-processor. It appears this device does not have the hardware needed. For more information please visit the DriveGuard Github page at www.github.com/benhonda/DriveGuard` This prevents your app from crashing, but DriveGuard won't be able to tell if the user is driving or not. We're working on that too.
+For devices who do not have at least the M7 Motion Coprocessor (this includes the simulator by the way), DriveGuard will give you the error: `The activity monitor is not available. DriveGuard requires at least the M7 motion co-processor. It appears this device does not have the hardware needed. For more information please visit the DriveGuard Github page at www.github.com/benhonda/DriveGuard` This prevents your app from crashing, but DriveGuard won't be able to tell if the user is driving or not. We're working on that too.
 
 ## License
 MIT. Do what you will.
