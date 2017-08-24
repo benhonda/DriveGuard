@@ -14,7 +14,7 @@ Figure 2. 'Driving Prohibited' Default Alert
 
 Figure 3. Custom Alert
 
-<img src="/DriveGuard/img_discouragedalert.PNG?raw=true" alt="Discouraged Alert" width="200" height="auto"> &nbsp;<img src="/DriveGuard/img_prohibitedalert.PNG?raw=true" alt="Prohibited Alert" width="200" height="auto"> &nbsp;<img src="/DriveGuard/img_customalert.PNG?raw=true" alt="Custom Alert" width="200" height="auto">
+<img src="/DriveGuard/img_discouragedalert2.PNG?raw=true" alt="Discouraged Alert" width="200" height="auto"> &nbsp;<img src="/DriveGuard/img_prohibitedalert2.PNG?raw=true" alt="Prohibited Alert" width="200" height="auto"> &nbsp;<img src="/DriveGuard/img_customalert.PNG?raw=true" alt="Custom Alert" width="200" height="auto">
 
 ## Features
 ```
