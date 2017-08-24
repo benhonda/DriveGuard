@@ -1,5 +1,5 @@
 # DriveGuard
-A framework that manages the functionality of an app while the user is suspected to be driving an automobile.
+Easily and accurately identify when a user is driving an automobile. Notify the user with custom alerts when they begin driving and using your app.
 
 DriveGuard only works with devices that have at least the M7 motion co-processor. These devices include the iPhone 5s, iPad Air, iPad Mini 2, Apple A7 and all devices following these ones (e.g. iPhone 6, iPhone 7, iPad Air 2, etc.)
 
