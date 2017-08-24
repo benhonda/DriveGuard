@@ -98,9 +98,9 @@ public class DriveGuard {
             
             coreMotion.startActivityUpdates(to: .main) { (activity) in
                 
-                if (activity?.automotive)! {
+                if (activity?.stationary)! {
                     
-                    let alert = UIAlertController(title: "Hold Up!", message: "Looks like your in a vehicle. Using our app while driving is prohibited.", preferredStyle: UIAlertControllerStyle.alert)
+                    let alert = UIAlertController(title: "Hold Up!", message: "Looks like you're in a vehicle. Using our app while driving is prohibited.", preferredStyle: UIAlertControllerStyle.alert)
                     
                     let action1 = UIAlertAction(title: "Close", style: .default, handler: { (action) in
                         
@@ -138,9 +138,9 @@ public class DriveGuard {
             
             coreMotion.startActivityUpdates(to: .main) { (activity) in
                 
-                if (activity?.automotive)! {
+                if (activity?.stationary)! {
                     
-                    let alert = UIAlertController(title: "Hold Up!", message: "Looks like your in a vehicle. Using our app while driving is strongly discouraged.", preferredStyle: UIAlertControllerStyle.alert)
+                    let alert = UIAlertController(title: "Hold Up!", message: "Looks like you're in a vehicle. Using our app while driving is unsafe and strongly discouraged.", preferredStyle: UIAlertControllerStyle.alert)
                     alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
                     viewController.present(alert, animated: true, completion: nil)
                     
