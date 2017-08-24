@@ -12,7 +12,7 @@ import CoreMotion
 public class DriveGuard {
     
     // error message to be displayed if the hardware is insufficient
-    let coreMotionErrorMsg = "The activity moniter is not available. DriveGuard requires at least the M7 motion co-processor. It appears this device does not have the hardware needed. For more information please visit the DriveGuard Github page at www.github.com/benhonda/DriveGuard"
+    let coreMotionErrorMsg = "The activity monitor is not available. DriveGuard requires at least the M7 motion co-processor. It appears this device does not have the hardware needed. For more information please visit the DriveGuard Github page at www.github.com/benhonda/DriveGuard"
     
     // create a CMMotionActivityManager instance
     let coreMotion = CMMotionActivityManager()
@@ -100,7 +100,7 @@ public class DriveGuard {
                 
                 if (activity?.automotive)! {
                     
-                    let alert = UIAlertController(title: "Hold Up!", message: "Looks like your in a vehicle. Using our app while driving is prohibited.", preferredStyle: UIAlertControllerStyle.alert)
+                    let alert = UIAlertController(title: "Hold Up!", message: "Looks like you're in a vehicle. Using our app while driving is prohibited.", preferredStyle: UIAlertControllerStyle.alert)
                     
                     let action1 = UIAlertAction(title: "Close", style: .default, handler: { (action) in
                         
@@ -140,7 +140,7 @@ public class DriveGuard {
                 
                 if (activity?.automotive)! {
                     
-                    let alert = UIAlertController(title: "Hold Up!", message: "Looks like your in a vehicle. Using our app while driving is strongly discouraged.", preferredStyle: UIAlertControllerStyle.alert)
+                    let alert = UIAlertController(title: "Hold Up!", message: "Looks like you're in a vehicle. Using our app while driving is strongly discouraged.", preferredStyle: UIAlertControllerStyle.alert)
                     alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
                     viewController.present(alert, animated: true, completion: nil)
                     
